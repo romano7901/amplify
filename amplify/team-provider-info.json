@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tvtest-staging-164510-authRole",
+      "UnauthRoleArn": "arn:aws:iam::440726286559:role/amplify-tvtest-staging-164510-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::440726286559:role/amplify-tvtest-staging-164510-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tvtest-staging-164510-deployment",
+      "UnauthRoleName": "amplify-tvtest-staging-164510-unauthRole",
+      "StackName": "amplify-tvtest-staging-164510",
+      "StackId": "arn:aws:cloudformation:us-east-1:440726286559:stack/amplify-tvtest-staging-164510/3e7c65a0-3bfc-11ec-ac32-124a2771568b",
+      "AmplifyAppId": "d1725uxsux1v8k"
+    },
+    "categories": {
+      "auth": {
+        "tvtest7f5d6011": {}
+      }
+    }
+  }
+}

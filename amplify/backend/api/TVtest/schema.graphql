@@ -1,0 +1,15 @@
+type MyImages @model @key(name: "byMyNotes", fields: ["mynotesID"]) @auth(rules: [{allow: public}]) {
+  id: ID!
+  imKey: String
+  mynotesID: ID
+  imURL: String
+}
+
+type MyNotes @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  MyNote: String
+  Desc: String
+  Created: AWSDateTime
+  Images: [MyImages] @connection(keyName: "byMyNotes", fields: ["id"])
+}
+ 

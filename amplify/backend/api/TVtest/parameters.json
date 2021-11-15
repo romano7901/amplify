@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "TVtest",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtvtest7f5d6011",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
